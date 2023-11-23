@@ -37,6 +37,7 @@ En chart_floors  de utils.py genere gráfico 3D y pinte cada piso acorde a su va
 |\#44AA00|2000-2200|
 |\#22CC00|2200-2400|
 |\#00EE00|2400-2600|
+
 Parámetros de entrada:
 * risks: matriz (lista de listas) con el riesgo en cada sector
 * planned_floors: Número de pisos a construir
