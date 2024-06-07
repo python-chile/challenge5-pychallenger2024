@@ -12,7 +12,7 @@ A su vez el valor de piso será el producto entre $10.000.000, el coeficiente de
 $$precio = 10.000.000 \cdot (1 - f_r) \cdot n$$ 
 Ayuda a Natalia a edificar el complejo inmobiliario (en caso de que utilice bibliotecas externas debe agregarlas en requirements.txt)
 
-## Parte 1: Planificar efificios
+## Parte 1: Planificar edificios
 Implentar función place_floors en utils.py que recibe 2 parámetros
 * risks: matriz (lista de listas) con el riesgo en cada sector
 * planned_floors: Número de pisos a construir
