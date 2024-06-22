@@ -4,12 +4,16 @@ Desafío 5: Complejo inmobiliario de Natalia
 Natalia es una ingeniera estructural y está diseñando un complejo inmobiliario en cerro Caŕcel. Tiene el objetivo de construir un cierto número de pisos minimizando el riesgo de caída frente a un terremoto y aluvión.
 
 Se levanta el riesgo en cada suelo para el primer piso. Cada piso tendrá un 10% más de riesgo (o un 10% menos de seguridad) con respecto al piso inferior. No se trata de sólo sumar 0.1, sino que:
+
 $$f_{r2} = 0.1 + 0.9 \cdot f_{r1}$$
+
 Ya que del factor seguridad se da:
 $$f_{r} = 1 - f_{s}$$
 $$f_{s2} = 0.9 \cdot f_{s1}$$
 A su vez el valor de piso será el producto entre $10.000.000, el coeficiente de seguridad (diferencia de 1 y el riesgo) y el número de piso n.
+
 $$precio = 10.000.000 \cdot (1 - f_r) \cdot n$$ 
+
 Ayuda a Natalia a edificar el complejo inmobiliario (en caso de que utilice bibliotecas externas debe agregarlas en requirements.txt)
 
 ## Parte 1: Planificar edificios
